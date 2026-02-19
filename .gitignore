@@ -16,3 +16,4 @@ dist/
 *.so
 .cache/
 .pythonlibs/
+replit.md
