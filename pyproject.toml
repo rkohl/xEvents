@@ -1,0 +1,45 @@
+[project]
+name = "xEvents"
+version = "1.0.0"
+readme = "README.md"
+license = "BSD-3-Clause"
+description = "A lightweight, thread-safe event system for Python with channels, wildcards, filters, and replay."
+keywords = ["event", "handler", "event handler", "pub-sub", "event-bus", "python"]
+authors = [ 
+  { name = "rkohl"}
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/rkohl/xEvents"
+Source = "https://github.com/rkohl/xEvents"
+
+[tool.setuptools]
+packages = ["xevents"]
+
+[tool.pyright]
+useLibraryCodeForTypes = true
+include = ["xevents", "tests"]
+exclude = [".cache"]
+pythonVersion = "3.12"
+indentSize = 2
+indentStyle = "space"
+reportUnusedImport = true
+reportUnusedClass = true
+reportMissingImports = "error"
+reportUnusedFunction = true
+
+[tool.ruff.format]
+indent-style = "space"
+indent-size = 2
+quote-style = "double"
+
+[tool.ruff]
+select = ['E', 'W', 'F', 'I', 'B', 'C4', 'ARG', 'SIM']
+ignore = ['W291', 'W292', 'W293']
+line-length = 88
+indent-width = 2
+
+[tool.ruff.lint]
+select = ["I"]
