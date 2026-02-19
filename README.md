@@ -1,4 +1,5 @@
 # xEvents
+### 1.0.0
 
 A lightweight, thread-safe event system for Python. Use it to wire up different parts of your application so they can communicate through events — like a message bus that lives inside your process.
 
