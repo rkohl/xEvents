@@ -22,10 +22,10 @@ A lightweight, thread-safe event system for Python. Use it to wire up different 
 
 ## Installation
 
-Install the package or copy the `xevents/` directory into your project — there are no external dependencies.
+Install **xEvents** using pip
 
-```bash
-pip install xEvents
+```shell
+$ pip install xEvents
 ```
 ---
 ```python

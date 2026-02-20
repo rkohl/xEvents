@@ -16,7 +16,8 @@ Homepage = "https://github.com/rkohl/xEvents"
 Source = "https://github.com/rkohl/xEvents"
 
 [tool.setuptools]
-packages = ["xevents"]
+packages = ["xEvents"]
+package-dir = {"xEvents" = "xevents"}
 
 [tool.pyright]
 useLibraryCodeForTypes = true
