@@ -1,6 +1,6 @@
 [project]
 name = "xEvents"
-version = "1.0.0"
+version = "1.0.2"
 readme = "README.md"
 license = "BSD-3-Clause"
 description = "A lightweight, thread-safe event system for Python with channels, wildcards, filters, and replay."
@@ -42,4 +42,5 @@ line-length = 88
 indent-width = 2
 
 [tool.ruff.lint]
-select = ["I"]
+select = ["E", "F", "I", "B", "PIE"]
+ignore = ["B904", "B028"]

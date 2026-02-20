@@ -1,5 +1,4 @@
 # xEvents
-### 1.0.0
 
 A lightweight, thread-safe event system for Python. Use it to wire up different parts of your application so they can communicate through events — like a message bus that lives inside your process.
 
@@ -15,6 +14,8 @@ A lightweight, thread-safe event system for Python. Use it to wire up different 
 - **Thread-Safe** — All operations are protected by a reentrant lock, safe for multi-threaded apps.
 - **Zero Dependencies** — Built entirely on the Python standard library.
 
+---
+
 ## Requirements
 
 - Python 3.12+
@@ -24,9 +25,9 @@ A lightweight, thread-safe event system for Python. Use it to wire up different 
 Install the package or copy the `xevents/` directory into your project — there are no external dependencies.
 
 ```bash
-pip install git+https://github.com/rkohl/xEvents.git
+pip install xEvents
 ```
-
+---
 ```python
 from xevents import xEvents
 ```
