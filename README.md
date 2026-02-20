@@ -410,6 +410,14 @@ Notification: Task 'Generate Report' finished with result: success
 python -m unittest discover -s tests -v
 ```
 
+---
+## 📚 ・ xDev Utilities
+This library is part of **xDev Utilities**. As set of power tool to streamline your workflow.
+
+- **[xAPI](https://github.com/rkohl/xAPI)**: A lightweight, flexible asynchronous API client for Python built on Pydantic and httpx
+- **[xEvents](https://github.com/rkohl/xEvents)**: A lightweight, thread-safe event system for Python
+
+---
 ## License
 
 See [LICENSE.md](LICENSE.md) for details.
